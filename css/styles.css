@@ -37,6 +37,7 @@ html{
 
 .main-navbar {
     position: absolute;
+    display: flex;
     top: 0;
     left: 0;
     width: 100%;
@@ -705,7 +706,13 @@ nav ul li a{
     .best-sellers{
         display: flex;
         position: absolute;
-        font-size: 1.5rem;
+        font-size: 2rem;
+    }
+
+    .bestsellers-countainer-class{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .rounded-bottom-container-square{
@@ -734,6 +741,30 @@ nav ul li a{
         left: 49rem;
         transform: scale(0.8);
         max-width: 100%;
+    }
+
+    .more-info{
+        position: absolute;
+        display: flex;
+        top: 5rem;
+        left: -5rem;
+        transform: scale(0.9);
+    }
+
+    .info-second-to-the-bottom{
+        position: absolute;
+        display: flex;
+        top: 140rem;
+        left: 4rem;
+        transform: scale(0.8);
+    }
+
+    .info-bottom{
+        position: absolute;
+        display: flex;
+        top: 185rem;
+        left: 0rem;
+        transform: scale(0.8);
     }
 
     .rounded-bottom-square1:hover,
@@ -789,54 +820,190 @@ nav ul li a{
     }
 
     .best-sellers{
-        display: flex;
-        position: absolute;
-        left: 2.7rem;
-        font-size: 2rem;
-        top: 40rem;
+        top:45rem;
     }
 
     .rounded-bottom-container-square{
-        top: 62rem;
-        left: 1.2rem;
-        width: 68.5rem;
+        width: 72rem;
+        left: 0rem;
+        top: 65rem;
+        height: 15rem;
+        transform: scale(0.9);
     }
 
     .rounded-bottom-square1{
-        left: 1rem;
-        top: 44rem;
+        top: 46rem;
+        left: 2.5rem;
+        transform: scale(0.8);
+        max-width: 100%;
     }
 
     .rounded-bottom-square2{
-        left: 23rem;
-        top: 44rem;
+        top: 46rem;
+        left: 23.75rem;
+        transform: scale(0.8);
+        max-width: 100%;
     }
 
     .rounded-bottom-square3{
+        top: 46rem;
         left: 45rem;
-        top: 44rem;
+        transform: scale(0.8);
+        max-width: 100%;
+    }
+
+    .more-info{
+        position: absolute;
+        display: flex;
+        top: 5rem;
+        left: -5rem;
+        transform: scale(0.8);
+    }
+
+    .info-second-to-the-bottom{
+        position: absolute;
+        display: flex;
+        top: 121rem;
+        left: 0rem;
+        transform: scale(0.7);
+    }
+
+    .info-bottom{
+        position: absolute;
+        display: flex;
+        top: 160rem;
+        left: -6rem;
+        transform: scale(0.7);
     }
 
 }
 
 @media only screen and (max-width: 1200px) {
+
+    .main-tagline{
+        font-size: 2.4rem;
+        left: -5rem;
+    }
+
+    .sub-tagline{
+        font-size: 1.35rem;
+        margin-top: 22.5rem;
+        left: -5rem;
+    }
+
+    .pill-button{
+        top: 31.25rem;
+        left: 6rem;
+        padding: 0.5em 1em; 
+        font-size: 1.2rem;
+    }
+
+    .more-menu-pill-button{
+        top: 31.25rem;
+        left: 18rem;
+        padding: 0.5em 1em; 
+        font-size: 1.2rem;
+    }
+
     .strawberry-milktea{
-        transform: scale(.8);
+        transform: scale(.7);
         display: flex;
         position: absolute;
         top:6rem;
-        left: 32rem;
+        left: 27.5rem;
         margin: 0px 0px;
         padding: 0px 0px;
+    }
+
+    .bestsellers-countainer-class{
+        transform: scale(0.85);
+        padding-left: -10rem;
+    }
+
+    .best-sellers{
+        top:45rem;
+        left: -3px;
+        transform: scale(0.85);
+    }
+
+    .rounded-bottom-container-square{
+        width: 72rem;
+        left: -6rem;
+        top: 65rem;
+        height: 15rem;
+        transform: scale(0.85);
+    }
+
+    .rounded-bottom-square1{
+        top: 46rem;
+        left: -2.5rem;
+        transform: scale(0.75);
+        max-width: 100%;
+    }
+
+    .rounded-bottom-square2{
+        top: 46rem;
+        left: 17.5rem;
+        transform: scale(0.75);
+        max-width: 100%;
+    }
+
+    .rounded-bottom-square3{
+        top: 46rem;
+        left: 37.5rem;
+        transform: scale(0.75);
+        max-width: 100%;
+    }
+
+    .more-info{
+        position: absolute;
+        display: flex;
+        top: 5rem;
+        left: -5rem;
+        transform: scale(0.7);
+    }
+
+    .info-second-to-the-bottom{
+        position: absolute;
+        display: flex;
+        top: 106rem;
+        left: -3rem;
+        transform: scale(0.7);
+    }
+
+    .info-bottom{
+        position: absolute;
+        display: flex;
+        top: 144rem;
+        left: -10rem;
+        transform: scale(0.7);
     }
 }
 
 @media only screen and (max-width: 1024px) {
-    .main-title-container{
+
+    .main-tagline{
+        font-size: 2rem;
+    }
+
+    .sub-tagline{
+        top: -24;
+        font-size: 1.4rem;
+        display: flex;
+        flex-direction:row-reverse;
+        left: -5rem;
+    }
+
+    .order-now-button,
+    .more-menu-button{
+        top: -4;
         display: flex;
         position: absolute;
-        top: 0rem;
-        left: 32rem;
+        left: -0rem;
+    }
+
+    .more-menu-button{
+        left: -2.5rem;
     }
 
     .strawberry-milktea{
@@ -845,30 +1012,54 @@ nav ul li a{
 
     .rounded-bottom-container-square{
         width: 68rem;
-        left: 2rem;
-        top: 70rem;
+        left: -5.55rem;
+        top: 64rem;
         height: 15rem;
     }
 
     .rounded-bottom-square1{
-        top: 52rem;
-        left: 1.8rem;
+        top: 46rem;
+        left: -2.85rem;
         transform: scale(0.7);
         max-width: 100%;
     }
 
     .rounded-bottom-square2{
-        top: 52rem;
-        left: 24rem;
+        top: 46rem;
+        left: 16rem;
         transform: scale(0.7);
         max-width: 100%;
     }
 
     .rounded-bottom-square3{
-        top: 52rem;
-        left: 46rem;
+        top: 46rem;
+        left: 35rem;
         transform: scale(0.7);
         max-width: 100%;
+    }
+
+    .more-info{
+        position: absolute;
+        display: flex;
+        top: 5rem;
+        left: -5rem;
+        transform: scale(0.65);
+    }
+
+    .info-second-to-the-bottom{
+        position: absolute;
+        display: flex;
+        top: 95rem;
+        left: -5rem;
+        transform: scale(0.6);
+    }
+
+    .info-bottom{
+        position: absolute;
+        display: flex;
+        top: 126rem;
+        left: -12.5rem;
+        transform: scale(0.6);
     }
 
 
@@ -904,7 +1095,7 @@ nav ul li a{
 
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 768px) {
     nav ul li a{
         display: block;
         width: 100%;
@@ -915,27 +1106,108 @@ nav ul li a{
         text-shadow: none;
     }
 
+    .main-logo{
+        display: flex;
+        position: absolute;
+        max-width: 100px;
+        max-height: 100px;
+        top:0;
+        left: 15rem;
+    }
+
+    .nav-links{
+        display: flex;
+        position: absolute;
+        top: -100rem;
+    }
+
+    .business-name{
+        display: flex;
+        position: absolute;
+        top:0;
+        left: 15rem;  
+    }
+
     .main-tagline{
-        font-size: 19.5px;
+        font-size: 2rem;
         left: -100px;
         top: -25;
     }
 
     .sub-tagline{
-        font-size: 15px;
+        font-size: 28px;
         left: 5rem;
-        top: -6.5rem;
+        top: -2.5rem;
         padding: 0 0px;
     }
 
     .pill-button{
-        top: 20.75rem;
-        left: 4.5rem;
+        display: flex;
+        position: absolute;
+        left: 4rem;
+        top: 28rem;
     }
 
-    .more-menu-pill-button{
-        top: 24.8rem;
-        left: 4.5rem;
+    .more-menu-button{
+        display: flex;
+        position: absolute;
+        left: -6rem;
+        font-size: 10rem;
+        top: 1.25rem;
+    }
+
+    .rounded-bottom-container-square{
+        align-items: center;
+        width: 68rem;
+        top: 58rem;
+        height: 15rem;
+        left: -10.5rem;
+        transform: scale(0.65);
+    }
+
+    .rounded-bottom-square1{
+        top: 42rem;
+        left: -2.80rem;
+        transform: scale(0.55);
+        max-width: 100%;
+    }
+
+    .rounded-bottom-square2{
+        top: 42rem;
+        left: 11.125rem;
+        transform: scale(0.55);
+        max-width: 100%;
+    }
+
+    .rounded-bottom-square3{
+        top: 42rem;
+        left: 25rem;
+        transform: scale(0.55);
+        max-width: 100%;
+    }
+
+    .more-info{
+        position: absolute;
+        display: flex;
+        top: 18rem;
+        left: -1.85rem;
+        transform: scale(0.5);
+    }
+
+    .info-second-to-the-bottom{
+        position: absolute;
+        display: flex;
+        top: 88rem;
+        left: -5.5rem;
+        transform: scale(0.5);
+    }
+
+    .info-bottom{
+        position: absolute;
+        display: flex;
+        top: 119rem;
+        left: -16.5rem;
+        transform: scale(0.5);
     }
 }
 
